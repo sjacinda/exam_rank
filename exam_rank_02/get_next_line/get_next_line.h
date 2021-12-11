@@ -14,7 +14,7 @@
 # define GET_NEXT_LINE_H
 
 # include <stdio.h>		// для функции printf
-# include <stdlib.h>	// для функции free
+# include <stdlib.h>	// для функции free и malloc
 # include <unistd.h>	// для функции read
 
 int	get_next_line(char **line);
